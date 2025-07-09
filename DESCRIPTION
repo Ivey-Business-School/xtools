@@ -1,8 +1,8 @@
-Package: xapir
-Title: An Implementation of X APIs for Social Media Engagement Research
+Package: xtools
+Title: An Implementation of functions interacting with X for Social Media Engagement Research
 Version: 0.0.0.9000
-Date: 2024-11-19
-Description: Functions connecting to the 'X' APIs <https://developer.x.com/en/docs/x-api>. 
+Date: 2025-07-08
+Description: Functions interacting with X. 
     This package is tailored to students learning about social media and marketing.
 Authors@R: 
     c(person(given = "Jeffrey",
@@ -14,8 +14,8 @@ Authors@R:
              role = c("ctb"),
              email = "mortimer.steven.m@gmail.com"))
 License: MIT + file LICENSE
-URL: https://github.com/Ivey-Business-School/xapir, https://Ivey-Business-School.github.io/xapir/
-BugReports: https://github.com/Ivey-Business-School/xapir/issues
+URL: https://github.com/Ivey-Business-School/xtools, https://Ivey-Business-School.github.io/xtools/
+BugReports: https://github.com/Ivey-Business-School/xtools/issues
 Depends:
     R (>= 3.6.0)
 Imports:
