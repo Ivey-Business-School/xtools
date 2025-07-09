@@ -1,0 +1,44 @@
+Package: xapir
+Title: An Implementation of X APIs for Social Media Engagement Research
+Version: 0.0.0.9000
+Date: 2024-11-19
+Description: Functions connecting to the 'X' APIs <https://developer.x.com/en/docs/x-api>. 
+    This package is tailored to students learning about social media and marketing.
+Authors@R: 
+    c(person(given = "Jeffrey",
+             family = "Boichuk",
+             role = c("aut", "cre"),
+             email = "jpboichuk@gmail.com"),
+      person(given = c("Steven", "M."),
+             family = "Mortimer",
+             role = c("ctb"),
+             email = "mortimer.steven.m@gmail.com"))
+License: MIT + file LICENSE
+URL: https://github.com/Ivey-Business-School/xapir, https://Ivey-Business-School.github.io/xapir/
+BugReports: https://github.com/Ivey-Business-School/xapir/issues
+Depends:
+    R (>= 3.6.0)
+Imports:
+    methods (>= 3.6.0),
+    utils (>= 3.6.0),
+    stats (>= 3.6.0),
+    purrr (>= 0.2.5),
+    httr2 (>= 1.0.0),
+    stringr,
+    lubridate,
+    dplyr,
+    tidyr,
+    tidyselect
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat,
+    spelling,
+    here,
+    sessioninfo
+VignetteBuilder: knitr
+ByteCompile: true
+Encoding: UTF-8
+Language: en-US
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
